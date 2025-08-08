@@ -45,6 +45,7 @@ export default defineConfig({
         globPatterns: ["**/*.{js,css,html,svg,png,ico}"],
         cleanupOutdatedCaches: true,
         clientsClaim: true,
+        skipWaiting: true,
       },
 
       devOptions: {
